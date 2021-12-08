@@ -1,0 +1,29 @@
+{
+  "name": "jwt-auth-flow backend",
+  "version": "1.0.0",
+  "description": "JSON Web Token auth flow example",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jwt",
+    "example"
+  ],
+  "author": "JP90",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "nodemon": "^2.0.15"
+  }
+}
